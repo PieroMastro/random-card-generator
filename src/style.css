@@ -1,1 +1,42 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgb(0, 110, 18);
+}
+
+.card {
+  background-color: whitesmoke;
+  height: 420px;
+  width: 300px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+}
+
+.suit-top,
+.number,
+.suit-bottom {
+  font-size: 90px;
+  display: flex;
+}
+
+.number {
+  justify-content: center;
+}
+
+.suit-bottom {
+  justify-content: flex-end;
+}
