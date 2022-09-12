@@ -27,14 +27,15 @@ body {
 }
 
 .suit-top,
-.number,
+.numbers,
 .suit-bottom {
   font-size: 90px;
   display: flex;
 }
 
-.number {
+.numbers {
   justify-content: center;
+  font-weight: bolder;
 }
 
 .suit-bottom {
