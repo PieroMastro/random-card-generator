@@ -44,4 +44,4 @@ window.onload = function() {
   }
 };
 
-//agregar boton para seleccionar una carta al azar (si hay tiempo)
+//Falta boton para seleccionar una carta (incorporar si hay tiempo)
