@@ -36,7 +36,12 @@ window.onload = function() {
 
   let cardValue = document.querySelector(".numbers");
   cardValue.innerHTML = numbers[randomNumber];
+
+  if (randomSuit <= 1) {
+    suitTop.style.color = "red";
+    suitBottom.style.color = "red";
+    cardValue.style.color = "red";
+  }
 };
 
-//if ♥️ || ♦️ change color to red <----- pendiente
 //agregar boton para seleccionar una carta al azar (si hay tiempo)
