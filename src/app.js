@@ -42,6 +42,13 @@ window.onload = function() {
     suitBottom.style.color = "red";
     cardValue.style.color = "red";
   }
-};
 
-//Falta boton para seleccionar una carta (incorporar si hay tiempo)
+  const button = document.querySelector("#button");
+  function reload() {
+    reload = location.reload();
+  }
+
+  button.addEventListener("click", reload, false);
+
+  setTimeout(reload, 2000);
+};
