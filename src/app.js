@@ -50,5 +50,5 @@ window.onload = function() {
 
   button.addEventListener("click", reload, false);
 
-  setTimeout(reload, 2000);
+  setTimeout(reload, 2500);
 };

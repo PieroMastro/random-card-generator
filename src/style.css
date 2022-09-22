@@ -13,7 +13,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: rgb(0, 110, 18);
+  background-image: linear-gradient(rgb(24, 54, 187), rgb(10, 104, 10));
 }
 
 .card {
